@@ -18,7 +18,7 @@
     "jsx": "react-jsx",
 
     // ✅ inclui tipos do React (não deixe só "node")
-    "types": ["node", "react", "react-dom"]
+    "types": [ "react", "react-dom"]
   },
   "include": ["src/**/*"]
 }
