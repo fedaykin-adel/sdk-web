@@ -28,10 +28,14 @@
     "pack": "npm run prepack && npm pack",
     "prepare": "npm run build"
   },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
   "dependencies": {
     "@fingerprintjs/fingerprintjs": "^3.4.1",
-    "pako": "^2.1.0",
-    "react": "^19.1.1"
+    "pako": "^2.1.0"
+    
   },
   "devDependencies": {
     "@types/pako": "^2.0.4",
